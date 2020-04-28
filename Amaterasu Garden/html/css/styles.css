@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@font-face {
+    src:url(C:\Users\aj\Desktop\rootfolder\fonts\HoMicIDE-EFfeCt.ttf);
+    font-family: Homicide;
+    
+}
 
-* {
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,6 +18,7 @@ li, a, button {
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    display: flex;
 }
 
 header {
@@ -29,11 +34,14 @@ header {
 
 .nav_links {
     list-style: none;
+    font-family: Homicide;
+    
 }
 
 .nav_links li {
     display: inline-block;
     padding: 0px 20px;
+    border: solid #686868;
 }
 
 .nav_links li a {
@@ -65,3 +73,73 @@ button:hover {
     width: 10px;
   }
   
+ .logo {
+    
+
+        font-weight:bold;
+        letter-spacing: 3px;
+        border: 2px solid #686868;
+        padding: 5px 20px;
+} */
+
+.center  { 
+     position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%,-50%);
+color: red;
+ border: 2px solid #686868; 
+/* display: flex; */
+ padding: 10;
+margin: 0;  
+ } 
+ 
+.neon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 5px;
+    padding: 5px 20px;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+    display: flex;
+    top: 150px;
+    
+    
+}
+.neon:after{
+    content: attr(data-text) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color:#ff005b;
+    filter: blur(15px);
+}
+.neon:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe3a80;
+    z-index: -2;
+    opacity: .5;
+    filter: blur(40px);
+}
+
+.ad {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
