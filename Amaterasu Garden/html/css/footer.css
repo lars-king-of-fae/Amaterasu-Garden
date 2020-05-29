@@ -1,0 +1,135 @@
+a{
+    text-decoration: none;
+    outline:none ;
+}
+
+.footer-main-div {
+    
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding: 20px 0px ;
+    
+
+}
+.footer-social-icon {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding: 30px 0px; 
+}
+.footer-social-icon ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icon ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius:100% ;
+    background: #32cd32;
+}
+.footer-social-icon ul li a{
+    color: #272727;
+    font-size: 25px;
+    display: block;
+}
+
+.footer-social-icon ul li a i{
+    line-height: 50px;
+}
+.footer-social-icon ul li:hover{
+    background:red ;
+
+}
+.footer-social-icon ul li:hover a{
+    color: #fff;
+
+}
+.footer-menu-one{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+}
+.footer-menu-one ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+.footer-menu-one ul li{
+    display: inline-block;
+    margin:0px 20px ;
+}
+.footer-menu-one ul li a{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer-menu-one ul li a:hover{
+    color: #32cd32;
+}
+
+.footer-menu-two{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+.footer-menu-two ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+.footer-menu-two ul li{
+    display: inline-block;
+    margin:0px 20px ;
+}
+.footer-menu-two ul li a{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    
+    text-transform: uppercase;
+}
+.footer-menu-two ul li a:hover{
+    color: #272727;
+}
+.footer-bottom {
+    width: 100%;
+
+height: auto;
+margin: auto;
+background: #32cd32 ;
+padding: 10px;
+}
+
+.footer-bottom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.footer-bottom p a{
+    color: #fff;
+
+
+}
+.footer-bottom p a:hover{
+    color: #272727;
+}
