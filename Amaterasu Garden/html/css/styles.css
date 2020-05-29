@@ -96,12 +96,12 @@ margin: 0;
  
 .neon{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 80%;
+    left: 45%;
     transform: translate(-50%,-50%);
-    margin: 5px;
+    margin: 50px;
     padding: 5px 20px;
-    font-size: 4em;
+    font-size: 3em;
     color: #fff;
     text-shadow: 0 0 20px #ff005b;
     display: flex;
@@ -134,7 +134,7 @@ margin: 0;
 
 .ad {
     position: absolute;
-    bottom: 8px;
+    bottom: 100px;
     left: 16px;
     color: white;
 }
@@ -142,4 +142,37 @@ margin: 0;
     position: relative;
     text-align: center;
     color: white;
+    bottom: -40px;
+}
+
+#no-wrap {
+    white-space: nowrap;
+}
+
+.txt {
+    position: relative;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  bottom: -50px;  
+}
+
+.cta {
+    position: absolute;
+    bottom: -10px;
+}
+
+.ctf{
+    position: relative;
+    text-align: right;
+    float: right;
+    bottom: 5px;
+    right: -5px;
+}
+
+.art {
+
+    position: relative;
+    bottom:100px;
+    
 }
