@@ -240,7 +240,68 @@ margin: 0;
     
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) rotate(-25deg);
+    width: 270px;
+
+}
+
+.container4 .card .contentBx{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.container4 .card:hover .contentBx {
+    height: 210px;
+}
+
+.container4 .card .contentBx h2 {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.container4 .card .contentBx .size,
+.container4 .card .contentBx .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px ;
+    transition: 0.5s;
+}
+.container4 .card .contentBx .size h3,
+.container4 .card .contentBx .color h3
+{
+color: #fff;
+font-weight: 300;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-right: 10px;
+}
+.container4 .card .contentBx .size span {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+     color: #111;
+     background: #fff;
+     margin: 0 5px;
+     transition: 0.5s;
+     color: #111;
+     border-radius: 4px;
+     cursor: pointer;
+
+}
+
+.container4 .card .contentBx .size span:hover{
+    background: #9bdc28;
 
 }
 
