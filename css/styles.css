@@ -158,10 +158,17 @@ margin: 0;
   font-size: 30px;
   bottom: -50px;  
 }
-
+.txt1 {
+    position: relative;
+    bottom: 135px;
+}
 .cta {
     position: absolute;
     bottom: -10px;
+}
+.btn1 {
+    position: absolute;
+    bottom: 99px
 }
 
 .ctf{
@@ -760,4 +767,9 @@ form {
   
   input[type=submit]:hover {
     opacity: 0.8;
+  }
+
+  .re {
+      position: relative;
+      bottom: 350px;
   }
