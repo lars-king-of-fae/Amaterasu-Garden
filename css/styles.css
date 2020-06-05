@@ -3,11 +3,13 @@
     font-family: Homicide;
     
 }
-
-body {
-    box-sizing: border-box;
+html {
     margin: 0px;
     padding: 0px;
+}
+body {
+    box-sizing: border-box;
+   
     background-color: #24252A;
     max-height: auto;
     max-width: auto;
@@ -261,9 +263,19 @@ margin: 0;
     transition: 1s;
     z-index: 10;
 }
-
+.chi {
+    position: relative;
+    bottom: 320px;
+}
+.chi1 {
+    position: relative;
+    bottom: -302px;
+    right: 800px;
+    
+}
 .container4 .card:hover .contentBx {
     height: 210px;
+    top: 210px;
 }
 
 .container4 .card .contentBx h2 {
@@ -286,6 +298,7 @@ margin: 0;
     opacity: 1;
     visibility: visible;
     transition-delay: 0.6s;
+    
 }
 .container4 .card .contentBx .size h3,
 .container4 .card .contentBx .color h3
@@ -444,8 +457,11 @@ margin-right: 10px;
 
 .container5 .card:hover .contentBx {
     height: 210px;
+    top: 30%;
 }
-
+.color3 {
+    color: black;
+}
 .container5 .card .contentBx h2 {
     position: relative;
     font-weight: 600;
@@ -457,12 +473,12 @@ margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 8px 20px ; */
-    transition: 0.5s;
+     padding: 8px 20px ; 
+     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
-}
-.container5 .card:hover .contentBx .color{
+} 
+ .container5 .card:hover .contentBx .color{
     opacity: 1;
     visibility: visible;
     transition-delay: 0.6s;
@@ -524,7 +540,7 @@ margin-right: 10px;
    padding: 10px 20px;
    background: #fff ;
    border-radius: 4px;
-   margin-top: 10px ;
+   /* margin-top: 10px ; */
    text-decoration: none;
    font-weight:600 ;
    color: 111;
@@ -635,7 +651,7 @@ margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 10px 20px ; */
+     /* padding: 10px 20px ; */
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
@@ -699,7 +715,7 @@ margin-right: 10px;
 
 .container6 .card .contentBx a {
    display: inline-block;
-   padding: 10px 20px;
+   /* padding: 10px 20px; */
    background: #fff ;
    border-radius: 4px;
    margin-top: 10px ;
@@ -774,25 +790,39 @@ form {
       bottom: 350px;
   }
 
-  .flex-container {
+   .flex-container {
     display: flex;
     position: relative;
     justify-content: center;
     background-color: DodgerBlue;
     bottom: 400px;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 100px;
     margin: 100px;
+    
   }
   
-  .flex-container div {
+   .flex-container div {
       background-color: #f1f1f1;
       position: relative;
-      /* bottom: 400px; */
-     width: 500px;
+        bottom: 400px;  
+      width: 500px;
     height: 500px; 
-    margin: 10px;
+     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+  }  
+
+  .fill { 
+      position: relative;
+      color: white;
+     bottom: 300px;
+     margin-right: -50%;
+     left: 150px;
+  }
+
+  .fill1 {
+      position: relative;
+      bottom: -400px;
   }
