@@ -6,8 +6,8 @@
 
 body {
     box-sizing: border-box;
-    margin: 0;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
     background-color: #24252A;
     max-height: auto;
     max-width: auto;
@@ -277,7 +277,7 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 20px ;
+    padding: 8px 20px; 
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
@@ -457,7 +457,7 @@ margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 20px ;
+    /* padding: 8px 20px ; */
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
@@ -625,7 +625,7 @@ margin-right: 10px;
 }
 
 .container6 .card .contentBx h2 {
-    position: relative;
+    position: absolute;
     font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
@@ -635,7 +635,7 @@ margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 20px ;
+    /* padding: 10px 20px ; */
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
@@ -772,4 +772,27 @@ form {
   .re {
       position: relative;
       bottom: 350px;
+  }
+
+  .flex-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: DodgerBlue;
+    bottom: 400px;
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+  }
+  
+  .flex-container div {
+      background-color: #f1f1f1;
+      position: relative;
+      /* bottom: 400px; */
+     width: 500px;
+    height: 500px; 
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
   }
