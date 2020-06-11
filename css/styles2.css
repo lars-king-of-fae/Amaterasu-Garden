@@ -1,3 +1,10 @@
+
+body{
+  background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.15752-9/101657742_919008081937737_4804712414329176064_n.jpg?_nc_cat=107&_nc_sid=b96e70&_nc_oc=AQnfOXyw7KLC2DHxTcV5OurEMHCU0Hc5IApzc_Erv5Fee6XOY87cwZmDxQYWD4L6IxM&_nc_ht=scontent-ort2-1.xx&oh=07f83545ad66a390037e495049240509&oe=5F088556);
+  background-size: cover;
+  
+}
+
 .boxset {
   margin: 0;
   padding: 0;
@@ -130,4 +137,149 @@ li, a {
     color: black;
     text-decoration: none;
     display: flex;
+}
+
+/* contact form */
+.contact-form{
+  margin-top: 350px;
+  margin-bottom: -200px;
+  width: 85%;
+  max-width: 600px;
+  background: #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: "montserrat", sans-serif ;
+}
+
+.contact-form h1{
+  margin-top: 0;
+  font-weight: 200;
+}
+
+.txtb{
+  border: 1px solid gray;
+  margin:8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.txtb input, .txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.btn{
+ display: inline-block;
+ background: orange;
+ padding: 14px 0; 
+ color: white;
+ text-transform: uppercase;
+ cursor: pointer;
+ margin-top: 8px;
+ width: 100%;
+}
+
+/* footer */
+footer {
+  background-color: #f2f2f2;
+}
+
+.foot{
+  margin-top:40px;
+}
+
+footer .footer-content {
+  max-width: 75rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em;
+}
+
+@media (max-width: 40em) {
+  footer .footer-content {
+    padding: 2em 5%;
+  }
+}
+
+footer .footer-content nav {
+  padding-bottom: .5em;
+  border-bottom: 3px solid #2d2d2d;
+}
+
+footer .footer-content nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (min-width: 40em) {
+  footer .footer-content nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 40em) {
+  footer .footer-content nav ul li {
+    display: block;
+    margin: .5em auto;
+  }
+}
+
+footer .footer-content nav ul li a {
+  color: #2d2d2d;
+  line-height: 1;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (min-width: 50em) {
+  footer .footer-content nav ul li a {
+    padding: 0;
+  }
+}
+
+footer .footer-content__contact {
+  text-align: center;
+  margin-top: .5em;
+}
+
+@media (min-width: 75em) {
+  footer .footer-content__contact {
+    text-align: left;
+    width: 49.5%;
+    display: inline-block;
+  }
+}
+
+footer .footer-content__copyright {
+  text-align: center;
+  margin-top: .5em;
+}
+
+@media (min-width: 75em) {
+  footer .footer-content__copyright {
+    text-align: right;
+    width: 49.5%;
+    display: inline-block;
+  }
 }
